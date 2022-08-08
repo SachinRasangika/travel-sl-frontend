@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5vh;
+  background: rgb(73, 79, 82);
+  color: white;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.links {
+  color: white;
+  text-decoration: none; 
+}
+
+.links:hover {
+  color: gray;
+}
+
+.links:active {
+  color: yellow;
+}
+
+.card-size {
+  width: 500px;
+  height: 400px;
+  margin-top: 170px;
+  margin-right: auto;
+  margin-left: auto;
+}
